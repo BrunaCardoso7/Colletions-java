@@ -15,8 +15,6 @@ public class Main {
 
         agendaEventos.exibirAgenda();
         agendaEventos.proximoEvento();
-        agendaEventos.
-
     }
 
 }
