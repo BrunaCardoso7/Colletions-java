@@ -13,11 +13,6 @@ public class Consumer_T {
             }
         };
 
-        numeros.forEach(integer -> {
-                if(integer%2 == 0){
-                    System.out.println(integer + ": numero par!");
-                }
-        });
-        numeros.forEach(System.out::println);
+        numeros.stream().filter(n -> n%2==0).forEach(System.out::println);
     }
 }
